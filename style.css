@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+/* Style the search box */
+form.searchbox input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+}
+
+  /* Style the search submit button */
+form.searchbox button {
+    float: left;
+    width: 5%;
+    height: 5%;
+    padding: 10px;
+    background: transparent;
+    color: black;
+    font-size: 17px;
+    border: 1px grey;
+    cursor: pointer;
+}
+
+form.searchbox button:hover {
+    background: #0b7dda;
+}
+
+  /* Clear floats */
+form.searchbox::after {
+    content: "";
+    clear: both;
+    display: table;
+}
