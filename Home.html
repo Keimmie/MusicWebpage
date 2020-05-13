@@ -7,10 +7,21 @@
     <body>
         <h1>Music Artist Seach</h1>
 
+        <section id="slide">
+            <button onclick="back_slide(true)" class="prev">&#171;</button>
+            <button onclick="slides(true)" class="next">&#187;</button>
+            <div>
+                <img src="Images/BlakeShelton.jpg">
+            </div>
+
+        </section>
+
         <form class="searchbox" action="action_page.php">
             <input type="text" placeholder="Artist Name.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
+
+        <script src="tofo.js"></script>
 
     </body>
 </html>

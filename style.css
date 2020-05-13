@@ -6,6 +6,54 @@ body{
     background-color: aliceblue;
 }
 
+
+#slide{
+    width: 960px;
+    height: 350px;
+    overflow:hidden;
+    margin: 30px auto;
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,1);
+}
+#slide div{
+    display:block;
+    width:0;
+    float: left;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    -o-transition:all 0.75s;
+    transition: all 0.75s;
+}
+img {
+    width:960px;
+}
+button.prev, button.next {
+    position: absolute;
+    z-index: 999;
+    display: block;
+    padding:0 10px;
+    width: auto;
+    height:350px;
+    background: rgba(0,0,0,0);
+    color: #ffffff;
+    font-size:26px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+}
+
+button.prev:hover, button.next:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+button.next {
+    margin-left:926px;
+}
+
+
+
+
+
+
 /* Style the search box */
 form.searchbox input[type=text] {
     padding: 10px;
