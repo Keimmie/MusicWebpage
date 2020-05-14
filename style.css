@@ -36,9 +36,16 @@
 body{
     background-color: aliceblue;
 }
+.midsection {
+  padding-top: 30px;
+  display:flex;
+}
+
 .genre {
   float: right;
   word-spacing: 5px;
+  position: fixed;
+  right: 30;
 }
 
 .select:hover{
@@ -46,28 +53,28 @@ body{
 }
 .letter {
   letter-spacing: 10px;
+  padding-top: 5px;
 }
 
 .search:hover{
   text-decoration: underline;
 }
-/* Style the search box */
+
 form.searchbox input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 2px solid grey;
-    border-radius: 20em;
-    float: left;
-    width: 20%;
-    background: transparent;
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 20em;
+  float: left;
+  width: 90%;
+  background: transparent;
 }
 
   /* Style the search submit button */
 form.searchbox button {
-    float: left;
-    width: 1%;
-    height: 5%;
     padding: 10px;
+    width:  5%;
+    height: 5%;
     background: transparent;
     color: black;
     font-size: 17px;
@@ -96,6 +103,7 @@ form.searchbox::after {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  padding-top: 40px;
 }
 
 /* Hide the images by default */
