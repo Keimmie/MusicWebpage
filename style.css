@@ -32,11 +32,25 @@
 
 }
 
- /* Web page Body*/
+/* Web page Body*/
 body{
     background-color: aliceblue;
 }
+.genre {
+  float: right;
+  word-spacing: 5px;
+}
 
+.select:hover{
+  text-decoration: underline;
+}
+.letter {
+  letter-spacing: 10px;
+}
+
+.search:hover{
+  text-decoration: underline;
+}
 /* Style the search box */
 form.searchbox input[type=text] {
     padding: 10px;
@@ -51,7 +65,7 @@ form.searchbox input[type=text] {
   /* Style the search submit button */
 form.searchbox button {
     float: left;
-    width: 5%;
+    width: 1%;
     height: 5%;
     padding: 10px;
     background: transparent;
@@ -170,3 +184,4 @@ form.searchbox::after {
   from {opacity: .4}
   to {opacity: 1}
 }
+
