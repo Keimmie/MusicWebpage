@@ -62,12 +62,8 @@ h5{
 .search:hover {
   text-decoration: underline;
 }
-ul.alphabet-list{
-  margin: 20px 3px 0 0;
-  padding: 0;
-  float: right;
-}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .browse-artists-lbl{
 float: left;
@@ -97,3 +93,5 @@ color: #000;
   margin-top: 50%;
 >>>>>>> c1c53d97df0fb4839ce49413377a49ad99d63416
 }
+=======
+>>>>>>> parent of 4229873... modfied version of home page-- Test Page. Still working on this
